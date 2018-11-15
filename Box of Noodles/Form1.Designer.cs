@@ -26,49 +26,49 @@
             this.mainTitleLabel = new System.Windows.Forms.Label();
             this.WelcomeLabel = new System.Windows.Forms.Label();
             this.noodleTypeGroupBox = new System.Windows.Forms.GroupBox();
-            this.riceVermicelliRadioButton = new System.Windows.Forms.RadioButton();
-            this.thinEggRadioButton = new System.Windows.Forms.RadioButton();
-            this.udonRadioButton = new System.Windows.Forms.RadioButton();
-            this.wideFlatRiceradioButton = new System.Windows.Forms.RadioButton();
-            this.thickEggRadioButton = new System.Windows.Forms.RadioButton();
             this.hokienRadioButton = new System.Windows.Forms.RadioButton();
+            this.thickEggRadioButton = new System.Windows.Forms.RadioButton();
+            this.wideFlatRiceradioButton = new System.Windows.Forms.RadioButton();
+            this.udonRadioButton = new System.Windows.Forms.RadioButton();
+            this.thinEggRadioButton = new System.Windows.Forms.RadioButton();
+            this.riceVermicelliRadioButton = new System.Windows.Forms.RadioButton();
             this.addMeatGroupBox = new System.Windows.Forms.GroupBox();
-            this.chickenRadioButton = new System.Windows.Forms.RadioButton();
-            this.porkRadioButton = new System.Windows.Forms.RadioButton();
-            this.beefRadioButton = new System.Windows.Forms.RadioButton();
-            this.seafoodRadioButton = new System.Windows.Forms.RadioButton();
-            this.noneRadioButton = new System.Windows.Forms.RadioButton();
-            this.chickenPriceLabel = new System.Windows.Forms.Label();
-            this.porkPriceLabel = new System.Windows.Forms.Label();
-            this.beefPriceLabel = new System.Windows.Forms.Label();
             this.seafoodPriceLabel = new System.Windows.Forms.Label();
+            this.beefPriceLabel = new System.Windows.Forms.Label();
+            this.porkPriceLabel = new System.Windows.Forms.Label();
+            this.chickenPriceLabel = new System.Windows.Forms.Label();
+            this.noneRadioButton = new System.Windows.Forms.RadioButton();
+            this.seafoodRadioButton = new System.Windows.Forms.RadioButton();
+            this.beefRadioButton = new System.Windows.Forms.RadioButton();
+            this.porkRadioButton = new System.Windows.Forms.RadioButton();
+            this.chickenRadioButton = new System.Windows.Forms.RadioButton();
             this.addVegetablesGroupBox = new System.Windows.Forms.GroupBox();
-            this.capscicumCheckBox = new System.Windows.Forms.CheckBox();
-            this.broccoilCheckBox = new System.Windows.Forms.CheckBox();
-            this.carrotCheckBox = new System.Windows.Forms.CheckBox();
-            this.onionCheckBox = new System.Windows.Forms.CheckBox();
-            this.greenBeansCheckBox = new System.Windows.Forms.CheckBox();
-            this.cabbageCheckBox = new System.Windows.Forms.CheckBox();
-            this.shallotsCheckBox = new System.Windows.Forms.CheckBox();
-            this.bokChoyheckBox = new System.Windows.Forms.CheckBox();
-            this.snowPeasCheckBox1 = new System.Windows.Forms.CheckBox();
             this.sproutsCheckBox = new System.Windows.Forms.CheckBox();
+            this.snowPeasCheckBox1 = new System.Windows.Forms.CheckBox();
+            this.bokChoyheckBox = new System.Windows.Forms.CheckBox();
+            this.shallotsCheckBox = new System.Windows.Forms.CheckBox();
+            this.cabbageCheckBox = new System.Windows.Forms.CheckBox();
+            this.greenBeansCheckBox = new System.Windows.Forms.CheckBox();
+            this.onionCheckBox = new System.Windows.Forms.CheckBox();
+            this.carrotCheckBox = new System.Windows.Forms.CheckBox();
+            this.broccoilCheckBox = new System.Windows.Forms.CheckBox();
+            this.capscicumCheckBox = new System.Windows.Forms.CheckBox();
             this.nameLabel = new System.Windows.Forms.Label();
             this.nameTextBox = new System.Windows.Forms.TextBox();
             this.bigSizeCheckBox = new System.Windows.Forms.CheckBox();
             this.calculateButton = new System.Windows.Forms.Button();
             this.orderPriceLabel = new System.Windows.Forms.Label();
             this.priceTextBox = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.audRadioButton = new System.Windows.Forms.RadioButton();
+            this.groupBox = new System.Windows.Forms.GroupBox();
             this.usdRadioButton = new System.Windows.Forms.RadioButton();
+            this.audRadioButton = new System.Windows.Forms.RadioButton();
             this.flavourLabel = new System.Windows.Forms.Label();
-            this.noticeVeagetablesLabel = new System.Windows.Forms.Label();
+            this.noticeVegetablesLabel = new System.Windows.Forms.Label();
             this.flavoursBox = new System.Windows.Forms.ComboBox();
             this.noodleTypeGroupBox.SuspendLayout();
             this.addMeatGroupBox.SuspendLayout();
             this.addVegetablesGroupBox.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainTitleLabel
@@ -107,45 +107,15 @@
             this.noodleTypeGroupBox.TabStop = false;
             this.noodleTypeGroupBox.Text = "Noodle Type:";
             // 
-            // riceVermicelliRadioButton
+            // hokienRadioButton
             // 
-            this.riceVermicelliRadioButton.AutoSize = true;
-            this.riceVermicelliRadioButton.Location = new System.Drawing.Point(15, 20);
-            this.riceVermicelliRadioButton.Name = "riceVermicelliRadioButton";
-            this.riceVermicelliRadioButton.Size = new System.Drawing.Size(125, 19);
-            this.riceVermicelliRadioButton.TabIndex = 0;
-            this.riceVermicelliRadioButton.Text = "Rice Vermicelli";
-            this.riceVermicelliRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // thinEggRadioButton
-            // 
-            this.thinEggRadioButton.AutoSize = true;
-            this.thinEggRadioButton.Location = new System.Drawing.Point(166, 20);
-            this.thinEggRadioButton.Name = "thinEggRadioButton";
-            this.thinEggRadioButton.Size = new System.Drawing.Size(85, 19);
-            this.thinEggRadioButton.TabIndex = 1;
-            this.thinEggRadioButton.Text = "Thin Egg";
-            this.thinEggRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // udonRadioButton
-            // 
-            this.udonRadioButton.AutoSize = true;
-            this.udonRadioButton.Location = new System.Drawing.Point(270, 20);
-            this.udonRadioButton.Name = "udonRadioButton";
-            this.udonRadioButton.Size = new System.Drawing.Size(63, 19);
-            this.udonRadioButton.TabIndex = 2;
-            this.udonRadioButton.Text = "Udon";
-            this.udonRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // wideFlatRiceradioButton
-            // 
-            this.wideFlatRiceradioButton.AutoSize = true;
-            this.wideFlatRiceradioButton.Location = new System.Drawing.Point(15, 43);
-            this.wideFlatRiceradioButton.Name = "wideFlatRiceradioButton";
-            this.wideFlatRiceradioButton.Size = new System.Drawing.Size(121, 19);
-            this.wideFlatRiceradioButton.TabIndex = 3;
-            this.wideFlatRiceradioButton.Text = "Wide Flat Rice";
-            this.wideFlatRiceradioButton.UseVisualStyleBackColor = true;
+            this.hokienRadioButton.AutoSize = true;
+            this.hokienRadioButton.Location = new System.Drawing.Point(270, 42);
+            this.hokienRadioButton.Name = "hokienRadioButton";
+            this.hokienRadioButton.Size = new System.Drawing.Size(74, 19);
+            this.hokienRadioButton.TabIndex = 5;
+            this.hokienRadioButton.Text = "Hokien";
+            this.hokienRadioButton.UseVisualStyleBackColor = true;
             // 
             // thickEggRadioButton
             // 
@@ -157,15 +127,45 @@
             this.thickEggRadioButton.Text = "Thick Egg";
             this.thickEggRadioButton.UseVisualStyleBackColor = true;
             // 
-            // hokienRadioButton
+            // wideFlatRiceradioButton
             // 
-            this.hokienRadioButton.AutoSize = true;
-            this.hokienRadioButton.Location = new System.Drawing.Point(270, 42);
-            this.hokienRadioButton.Name = "hokienRadioButton";
-            this.hokienRadioButton.Size = new System.Drawing.Size(74, 19);
-            this.hokienRadioButton.TabIndex = 5;
-            this.hokienRadioButton.Text = "Hokien";
-            this.hokienRadioButton.UseVisualStyleBackColor = true;
+            this.wideFlatRiceradioButton.AutoSize = true;
+            this.wideFlatRiceradioButton.Location = new System.Drawing.Point(15, 43);
+            this.wideFlatRiceradioButton.Name = "wideFlatRiceradioButton";
+            this.wideFlatRiceradioButton.Size = new System.Drawing.Size(121, 19);
+            this.wideFlatRiceradioButton.TabIndex = 3;
+            this.wideFlatRiceradioButton.Text = "Wide Flat Rice";
+            this.wideFlatRiceradioButton.UseVisualStyleBackColor = true;
+            // 
+            // udonRadioButton
+            // 
+            this.udonRadioButton.AutoSize = true;
+            this.udonRadioButton.Location = new System.Drawing.Point(270, 20);
+            this.udonRadioButton.Name = "udonRadioButton";
+            this.udonRadioButton.Size = new System.Drawing.Size(63, 19);
+            this.udonRadioButton.TabIndex = 2;
+            this.udonRadioButton.Text = "Udon";
+            this.udonRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // thinEggRadioButton
+            // 
+            this.thinEggRadioButton.AutoSize = true;
+            this.thinEggRadioButton.Location = new System.Drawing.Point(166, 20);
+            this.thinEggRadioButton.Name = "thinEggRadioButton";
+            this.thinEggRadioButton.Size = new System.Drawing.Size(85, 19);
+            this.thinEggRadioButton.TabIndex = 1;
+            this.thinEggRadioButton.Text = "Thin Egg";
+            this.thinEggRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // riceVermicelliRadioButton
+            // 
+            this.riceVermicelliRadioButton.AutoSize = true;
+            this.riceVermicelliRadioButton.Location = new System.Drawing.Point(15, 20);
+            this.riceVermicelliRadioButton.Name = "riceVermicelliRadioButton";
+            this.riceVermicelliRadioButton.Size = new System.Drawing.Size(125, 19);
+            this.riceVermicelliRadioButton.TabIndex = 0;
+            this.riceVermicelliRadioButton.Text = "Rice Vermicelli";
+            this.riceVermicelliRadioButton.UseVisualStyleBackColor = true;
             // 
             // addMeatGroupBox
             // 
@@ -186,45 +186,41 @@
             this.addMeatGroupBox.TabStop = false;
             this.addMeatGroupBox.Text = "Add meat:";
             // 
-            // chickenRadioButton
+            // seafoodPriceLabel
             // 
-            this.chickenRadioButton.AutoSize = true;
-            this.chickenRadioButton.Location = new System.Drawing.Point(15, 21);
-            this.chickenRadioButton.Name = "chickenRadioButton";
-            this.chickenRadioButton.Size = new System.Drawing.Size(79, 19);
-            this.chickenRadioButton.TabIndex = 0;
-            this.chickenRadioButton.Text = "Chicken";
-            this.chickenRadioButton.UseVisualStyleBackColor = true;
+            this.seafoodPriceLabel.AutoSize = true;
+            this.seafoodPriceLabel.Location = new System.Drawing.Point(105, 91);
+            this.seafoodPriceLabel.Name = "seafoodPriceLabel";
+            this.seafoodPriceLabel.Size = new System.Drawing.Size(23, 15);
+            this.seafoodPriceLabel.TabIndex = 7;
+            this.seafoodPriceLabel.Text = "$7";
             // 
-            // porkRadioButton
+            // beefPriceLabel
             // 
-            this.porkRadioButton.AutoSize = true;
-            this.porkRadioButton.Location = new System.Drawing.Point(15, 44);
-            this.porkRadioButton.Name = "porkRadioButton";
-            this.porkRadioButton.Size = new System.Drawing.Size(57, 19);
-            this.porkRadioButton.TabIndex = 1;
-            this.porkRadioButton.Text = "Pork";
-            this.porkRadioButton.UseVisualStyleBackColor = true;
+            this.beefPriceLabel.AutoSize = true;
+            this.beefPriceLabel.Location = new System.Drawing.Point(105, 69);
+            this.beefPriceLabel.Name = "beefPriceLabel";
+            this.beefPriceLabel.Size = new System.Drawing.Size(23, 15);
+            this.beefPriceLabel.TabIndex = 6;
+            this.beefPriceLabel.Text = "$5";
             // 
-            // beefRadioButton
+            // porkPriceLabel
             // 
-            this.beefRadioButton.AutoSize = true;
-            this.beefRadioButton.Location = new System.Drawing.Point(15, 67);
-            this.beefRadioButton.Name = "beefRadioButton";
-            this.beefRadioButton.Size = new System.Drawing.Size(55, 19);
-            this.beefRadioButton.TabIndex = 2;
-            this.beefRadioButton.Text = "Beef";
-            this.beefRadioButton.UseVisualStyleBackColor = true;
+            this.porkPriceLabel.AutoSize = true;
+            this.porkPriceLabel.Location = new System.Drawing.Point(105, 46);
+            this.porkPriceLabel.Name = "porkPriceLabel";
+            this.porkPriceLabel.Size = new System.Drawing.Size(23, 15);
+            this.porkPriceLabel.TabIndex = 5;
+            this.porkPriceLabel.Text = "$5";
             // 
-            // seafoodRadioButton
+            // chickenPriceLabel
             // 
-            this.seafoodRadioButton.AutoSize = true;
-            this.seafoodRadioButton.Location = new System.Drawing.Point(15, 89);
-            this.seafoodRadioButton.Name = "seafoodRadioButton";
-            this.seafoodRadioButton.Size = new System.Drawing.Size(81, 19);
-            this.seafoodRadioButton.TabIndex = 3;
-            this.seafoodRadioButton.Text = "Seafood";
-            this.seafoodRadioButton.UseVisualStyleBackColor = true;
+            this.chickenPriceLabel.AutoSize = true;
+            this.chickenPriceLabel.Location = new System.Drawing.Point(105, 23);
+            this.chickenPriceLabel.Name = "chickenPriceLabel";
+            this.chickenPriceLabel.Size = new System.Drawing.Size(23, 15);
+            this.chickenPriceLabel.TabIndex = 4;
+            this.chickenPriceLabel.Text = "$5";
             // 
             // noneRadioButton
             // 
@@ -238,41 +234,45 @@
             this.noneRadioButton.Text = "None";
             this.noneRadioButton.UseVisualStyleBackColor = true;
             // 
-            // chickenPriceLabel
+            // seafoodRadioButton
             // 
-            this.chickenPriceLabel.AutoSize = true;
-            this.chickenPriceLabel.Location = new System.Drawing.Point(105, 23);
-            this.chickenPriceLabel.Name = "chickenPriceLabel";
-            this.chickenPriceLabel.Size = new System.Drawing.Size(23, 15);
-            this.chickenPriceLabel.TabIndex = 4;
-            this.chickenPriceLabel.Text = "$5";
+            this.seafoodRadioButton.AutoSize = true;
+            this.seafoodRadioButton.Location = new System.Drawing.Point(15, 89);
+            this.seafoodRadioButton.Name = "seafoodRadioButton";
+            this.seafoodRadioButton.Size = new System.Drawing.Size(81, 19);
+            this.seafoodRadioButton.TabIndex = 3;
+            this.seafoodRadioButton.Text = "Seafood";
+            this.seafoodRadioButton.UseVisualStyleBackColor = true;
             // 
-            // porkPriceLabel
+            // beefRadioButton
             // 
-            this.porkPriceLabel.AutoSize = true;
-            this.porkPriceLabel.Location = new System.Drawing.Point(105, 46);
-            this.porkPriceLabel.Name = "porkPriceLabel";
-            this.porkPriceLabel.Size = new System.Drawing.Size(23, 15);
-            this.porkPriceLabel.TabIndex = 5;
-            this.porkPriceLabel.Text = "$5";
+            this.beefRadioButton.AutoSize = true;
+            this.beefRadioButton.Location = new System.Drawing.Point(15, 67);
+            this.beefRadioButton.Name = "beefRadioButton";
+            this.beefRadioButton.Size = new System.Drawing.Size(55, 19);
+            this.beefRadioButton.TabIndex = 2;
+            this.beefRadioButton.Text = "Beef";
+            this.beefRadioButton.UseVisualStyleBackColor = true;
             // 
-            // beefPriceLabel
+            // porkRadioButton
             // 
-            this.beefPriceLabel.AutoSize = true;
-            this.beefPriceLabel.Location = new System.Drawing.Point(105, 69);
-            this.beefPriceLabel.Name = "beefPriceLabel";
-            this.beefPriceLabel.Size = new System.Drawing.Size(23, 15);
-            this.beefPriceLabel.TabIndex = 6;
-            this.beefPriceLabel.Text = "$5";
+            this.porkRadioButton.AutoSize = true;
+            this.porkRadioButton.Location = new System.Drawing.Point(15, 44);
+            this.porkRadioButton.Name = "porkRadioButton";
+            this.porkRadioButton.Size = new System.Drawing.Size(57, 19);
+            this.porkRadioButton.TabIndex = 1;
+            this.porkRadioButton.Text = "Pork";
+            this.porkRadioButton.UseVisualStyleBackColor = true;
             // 
-            // seafoodPriceLabel
+            // chickenRadioButton
             // 
-            this.seafoodPriceLabel.AutoSize = true;
-            this.seafoodPriceLabel.Location = new System.Drawing.Point(105, 91);
-            this.seafoodPriceLabel.Name = "seafoodPriceLabel";
-            this.seafoodPriceLabel.Size = new System.Drawing.Size(23, 15);
-            this.seafoodPriceLabel.TabIndex = 7;
-            this.seafoodPriceLabel.Text = "$7";
+            this.chickenRadioButton.AutoSize = true;
+            this.chickenRadioButton.Location = new System.Drawing.Point(15, 21);
+            this.chickenRadioButton.Name = "chickenRadioButton";
+            this.chickenRadioButton.Size = new System.Drawing.Size(79, 19);
+            this.chickenRadioButton.TabIndex = 0;
+            this.chickenRadioButton.Text = "Chicken";
+            this.chickenRadioButton.UseVisualStyleBackColor = true;
             // 
             // addVegetablesGroupBox
             // 
@@ -294,85 +294,15 @@
             this.addVegetablesGroupBox.TabStop = false;
             this.addVegetablesGroupBox.Text = "Add vegetables:";
             // 
-            // capscicumCheckBox
+            // sproutsCheckBox
             // 
-            this.capscicumCheckBox.AutoSize = true;
-            this.capscicumCheckBox.Location = new System.Drawing.Point(15, 22);
-            this.capscicumCheckBox.Name = "capscicumCheckBox";
-            this.capscicumCheckBox.Size = new System.Drawing.Size(98, 19);
-            this.capscicumCheckBox.TabIndex = 0;
-            this.capscicumCheckBox.Text = "Capscicum";
-            this.capscicumCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // broccoilCheckBox
-            // 
-            this.broccoilCheckBox.AutoSize = true;
-            this.broccoilCheckBox.Location = new System.Drawing.Point(15, 44);
-            this.broccoilCheckBox.Name = "broccoilCheckBox";
-            this.broccoilCheckBox.Size = new System.Drawing.Size(81, 19);
-            this.broccoilCheckBox.TabIndex = 1;
-            this.broccoilCheckBox.Text = "Broccoil";
-            this.broccoilCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // carrotCheckBox
-            // 
-            this.carrotCheckBox.AutoSize = true;
-            this.carrotCheckBox.Location = new System.Drawing.Point(15, 67);
-            this.carrotCheckBox.Name = "carrotCheckBox";
-            this.carrotCheckBox.Size = new System.Drawing.Size(69, 19);
-            this.carrotCheckBox.TabIndex = 2;
-            this.carrotCheckBox.Text = "Carrot";
-            this.carrotCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // onionCheckBox
-            // 
-            this.onionCheckBox.AutoSize = true;
-            this.onionCheckBox.Location = new System.Drawing.Point(15, 89);
-            this.onionCheckBox.Name = "onionCheckBox";
-            this.onionCheckBox.Size = new System.Drawing.Size(68, 19);
-            this.onionCheckBox.TabIndex = 3;
-            this.onionCheckBox.Text = "Onion";
-            this.onionCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // greenBeansCheckBox
-            // 
-            this.greenBeansCheckBox.AutoSize = true;
-            this.greenBeansCheckBox.Location = new System.Drawing.Point(15, 112);
-            this.greenBeansCheckBox.Name = "greenBeansCheckBox";
-            this.greenBeansCheckBox.Size = new System.Drawing.Size(111, 19);
-            this.greenBeansCheckBox.TabIndex = 4;
-            this.greenBeansCheckBox.Text = "Green Beans";
-            this.greenBeansCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // cabbageCheckBox
-            // 
-            this.cabbageCheckBox.AutoSize = true;
-            this.cabbageCheckBox.Location = new System.Drawing.Point(137, 22);
-            this.cabbageCheckBox.Name = "cabbageCheckBox";
-            this.cabbageCheckBox.Size = new System.Drawing.Size(86, 19);
-            this.cabbageCheckBox.TabIndex = 5;
-            this.cabbageCheckBox.Text = "Cabbage";
-            this.cabbageCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // shallotsCheckBox
-            // 
-            this.shallotsCheckBox.AutoSize = true;
-            this.shallotsCheckBox.Location = new System.Drawing.Point(137, 44);
-            this.shallotsCheckBox.Name = "shallotsCheckBox";
-            this.shallotsCheckBox.Size = new System.Drawing.Size(79, 19);
-            this.shallotsCheckBox.TabIndex = 6;
-            this.shallotsCheckBox.Text = "Shallots";
-            this.shallotsCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // bokChoyheckBox
-            // 
-            this.bokChoyheckBox.AutoSize = true;
-            this.bokChoyheckBox.Location = new System.Drawing.Point(137, 67);
-            this.bokChoyheckBox.Name = "bokChoyheckBox";
-            this.bokChoyheckBox.Size = new System.Drawing.Size(91, 19);
-            this.bokChoyheckBox.TabIndex = 7;
-            this.bokChoyheckBox.Text = "Bok Choy";
-            this.bokChoyheckBox.UseVisualStyleBackColor = true;
+            this.sproutsCheckBox.AutoSize = true;
+            this.sproutsCheckBox.Location = new System.Drawing.Point(137, 112);
+            this.sproutsCheckBox.Name = "sproutsCheckBox";
+            this.sproutsCheckBox.Size = new System.Drawing.Size(78, 19);
+            this.sproutsCheckBox.TabIndex = 9;
+            this.sproutsCheckBox.Text = "Sprouts";
+            this.sproutsCheckBox.UseVisualStyleBackColor = true;
             // 
             // snowPeasCheckBox1
             // 
@@ -384,15 +314,85 @@
             this.snowPeasCheckBox1.Text = "Snow Peas";
             this.snowPeasCheckBox1.UseVisualStyleBackColor = true;
             // 
-            // sproutsCheckBox
+            // bokChoyheckBox
             // 
-            this.sproutsCheckBox.AutoSize = true;
-            this.sproutsCheckBox.Location = new System.Drawing.Point(137, 112);
-            this.sproutsCheckBox.Name = "sproutsCheckBox";
-            this.sproutsCheckBox.Size = new System.Drawing.Size(78, 19);
-            this.sproutsCheckBox.TabIndex = 9;
-            this.sproutsCheckBox.Text = "Sprouts";
-            this.sproutsCheckBox.UseVisualStyleBackColor = true;
+            this.bokChoyheckBox.AutoSize = true;
+            this.bokChoyheckBox.Location = new System.Drawing.Point(137, 67);
+            this.bokChoyheckBox.Name = "bokChoyheckBox";
+            this.bokChoyheckBox.Size = new System.Drawing.Size(91, 19);
+            this.bokChoyheckBox.TabIndex = 7;
+            this.bokChoyheckBox.Text = "Bok Choy";
+            this.bokChoyheckBox.UseVisualStyleBackColor = true;
+            // 
+            // shallotsCheckBox
+            // 
+            this.shallotsCheckBox.AutoSize = true;
+            this.shallotsCheckBox.Location = new System.Drawing.Point(137, 44);
+            this.shallotsCheckBox.Name = "shallotsCheckBox";
+            this.shallotsCheckBox.Size = new System.Drawing.Size(79, 19);
+            this.shallotsCheckBox.TabIndex = 6;
+            this.shallotsCheckBox.Text = "Shallots";
+            this.shallotsCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // cabbageCheckBox
+            // 
+            this.cabbageCheckBox.AutoSize = true;
+            this.cabbageCheckBox.Location = new System.Drawing.Point(137, 22);
+            this.cabbageCheckBox.Name = "cabbageCheckBox";
+            this.cabbageCheckBox.Size = new System.Drawing.Size(86, 19);
+            this.cabbageCheckBox.TabIndex = 5;
+            this.cabbageCheckBox.Text = "Cabbage";
+            this.cabbageCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // greenBeansCheckBox
+            // 
+            this.greenBeansCheckBox.AutoSize = true;
+            this.greenBeansCheckBox.Location = new System.Drawing.Point(15, 112);
+            this.greenBeansCheckBox.Name = "greenBeansCheckBox";
+            this.greenBeansCheckBox.Size = new System.Drawing.Size(111, 19);
+            this.greenBeansCheckBox.TabIndex = 4;
+            this.greenBeansCheckBox.Text = "Green Beans";
+            this.greenBeansCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // onionCheckBox
+            // 
+            this.onionCheckBox.AutoSize = true;
+            this.onionCheckBox.Location = new System.Drawing.Point(15, 89);
+            this.onionCheckBox.Name = "onionCheckBox";
+            this.onionCheckBox.Size = new System.Drawing.Size(68, 19);
+            this.onionCheckBox.TabIndex = 3;
+            this.onionCheckBox.Text = "Onion";
+            this.onionCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // carrotCheckBox
+            // 
+            this.carrotCheckBox.AutoSize = true;
+            this.carrotCheckBox.Location = new System.Drawing.Point(15, 67);
+            this.carrotCheckBox.Name = "carrotCheckBox";
+            this.carrotCheckBox.Size = new System.Drawing.Size(69, 19);
+            this.carrotCheckBox.TabIndex = 2;
+            this.carrotCheckBox.Text = "Carrot";
+            this.carrotCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // broccoilCheckBox
+            // 
+            this.broccoilCheckBox.AutoSize = true;
+            this.broccoilCheckBox.Location = new System.Drawing.Point(15, 44);
+            this.broccoilCheckBox.Name = "broccoilCheckBox";
+            this.broccoilCheckBox.Size = new System.Drawing.Size(81, 19);
+            this.broccoilCheckBox.TabIndex = 1;
+            this.broccoilCheckBox.Text = "Broccoil";
+            this.broccoilCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // capscicumCheckBox
+            // 
+            this.capscicumCheckBox.AutoSize = true;
+            this.capscicumCheckBox.Location = new System.Drawing.Point(15, 22);
+            this.capscicumCheckBox.Name = "capscicumCheckBox";
+            this.capscicumCheckBox.Size = new System.Drawing.Size(98, 19);
+            this.capscicumCheckBox.TabIndex = 0;
+            this.capscicumCheckBox.Text = "Capscicum";
+            this.capscicumCheckBox.UseVisualStyleBackColor = true;
             // 
             // nameLabel
             // 
@@ -432,6 +432,7 @@
             this.calculateButton.TabIndex = 8;
             this.calculateButton.Text = "CALCULATE";
             this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // orderPriceLabel
             // 
@@ -454,17 +455,28 @@
             this.priceTextBox.Text = "$";
             this.priceTextBox.Visible = false;
             // 
-            // groupBox1
+            // groupBox
             // 
-            this.groupBox1.Controls.Add(this.usdRadioButton);
-            this.groupBox1.Controls.Add(this.audRadioButton);
-            this.groupBox1.Font = new System.Drawing.Font("DengXian", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox1.Location = new System.Drawing.Point(766, 344);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(78, 76);
-            this.groupBox1.TabIndex = 11;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Visible = false;
+            this.groupBox.Controls.Add(this.usdRadioButton);
+            this.groupBox.Controls.Add(this.audRadioButton);
+            this.groupBox.Font = new System.Drawing.Font("DengXian", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox.Location = new System.Drawing.Point(766, 344);
+            this.groupBox.Name = "groupBox";
+            this.groupBox.Size = new System.Drawing.Size(78, 76);
+            this.groupBox.TabIndex = 11;
+            this.groupBox.TabStop = false;
+            this.groupBox.Visible = false;
+            // 
+            // usdRadioButton
+            // 
+            this.usdRadioButton.AutoSize = true;
+            this.usdRadioButton.Location = new System.Drawing.Point(22, 44);
+            this.usdRadioButton.Name = "usdRadioButton";
+            this.usdRadioButton.Size = new System.Drawing.Size(49, 17);
+            this.usdRadioButton.TabIndex = 1;
+            this.usdRadioButton.TabStop = true;
+            this.usdRadioButton.Text = "USD";
+            this.usdRadioButton.UseVisualStyleBackColor = true;
             // 
             // audRadioButton
             // 
@@ -478,17 +490,6 @@
             this.audRadioButton.Text = "AUD";
             this.audRadioButton.UseVisualStyleBackColor = true;
             // 
-            // usdRadioButton
-            // 
-            this.usdRadioButton.AutoSize = true;
-            this.usdRadioButton.Location = new System.Drawing.Point(22, 44);
-            this.usdRadioButton.Name = "usdRadioButton";
-            this.usdRadioButton.Size = new System.Drawing.Size(49, 17);
-            this.usdRadioButton.TabIndex = 1;
-            this.usdRadioButton.TabStop = true;
-            this.usdRadioButton.Text = "USD";
-            this.usdRadioButton.UseVisualStyleBackColor = true;
-            // 
             // flavourLabel
             // 
             this.flavourLabel.AutoSize = true;
@@ -499,15 +500,15 @@
             this.flavourLabel.TabIndex = 12;
             this.flavourLabel.Text = "Choose Flavour:";
             // 
-            // noticeVeagetablesLabel
+            // noticeVegetablesLabel
             // 
-            this.noticeVeagetablesLabel.AutoSize = true;
-            this.noticeVeagetablesLabel.Font = new System.Drawing.Font("DengXian", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.noticeVeagetablesLabel.Location = new System.Drawing.Point(267, 370);
-            this.noticeVeagetablesLabel.Name = "noticeVeagetablesLabel";
-            this.noticeVeagetablesLabel.Size = new System.Drawing.Size(212, 26);
-            this.noticeVeagetablesLabel.TabIndex = 13;
-            this.noticeVeagetablesLabel.Text = "Choose up to 4 vegetables.\r\nEach additional vegetable = $0.50AUD";
+            this.noticeVegetablesLabel.AutoSize = true;
+            this.noticeVegetablesLabel.Font = new System.Drawing.Font("DengXian", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.noticeVegetablesLabel.Location = new System.Drawing.Point(267, 370);
+            this.noticeVegetablesLabel.Name = "noticeVegetablesLabel";
+            this.noticeVegetablesLabel.Size = new System.Drawing.Size(212, 26);
+            this.noticeVegetablesLabel.TabIndex = 13;
+            this.noticeVegetablesLabel.Text = "Choose up to 4 vegetables.\r\nEach additional vegetable = $0.50AUD";
             // 
             // flavoursBox
             // 
@@ -531,9 +532,9 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(886, 492);
             this.Controls.Add(this.flavoursBox);
-            this.Controls.Add(this.noticeVeagetablesLabel);
+            this.Controls.Add(this.noticeVegetablesLabel);
             this.Controls.Add(this.flavourLabel);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox);
             this.Controls.Add(this.priceTextBox);
             this.Controls.Add(this.orderPriceLabel);
             this.Controls.Add(this.calculateButton);
@@ -553,8 +554,8 @@
             this.addMeatGroupBox.PerformLayout();
             this.addVegetablesGroupBox.ResumeLayout(false);
             this.addVegetablesGroupBox.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBox.ResumeLayout(false);
+            this.groupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -598,11 +599,11 @@
         private System.Windows.Forms.Button calculateButton;
         private System.Windows.Forms.Label orderPriceLabel;
         private System.Windows.Forms.TextBox priceTextBox;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox;
         private System.Windows.Forms.RadioButton usdRadioButton;
         private System.Windows.Forms.RadioButton audRadioButton;
         private System.Windows.Forms.Label flavourLabel;
-        private System.Windows.Forms.Label noticeVeagetablesLabel;
+        private System.Windows.Forms.Label noticeVegetablesLabel;
         private System.Windows.Forms.ComboBox flavoursBox;
     }
 }

@@ -233,6 +233,7 @@
             this.noneRadioButton.TabStop = true;
             this.noneRadioButton.Text = "None";
             this.noneRadioButton.UseVisualStyleBackColor = true;
+            this.noneRadioButton.CheckedChanged += new System.EventHandler(this.noneRadioButton_CheckedChanged);
             // 
             // seafoodRadioButton
             // 
@@ -243,6 +244,7 @@
             this.seafoodRadioButton.TabIndex = 3;
             this.seafoodRadioButton.Text = "Seafood";
             this.seafoodRadioButton.UseVisualStyleBackColor = true;
+            this.seafoodRadioButton.CheckedChanged += new System.EventHandler(this.seafoodRadioButton_CheckedChanged);
             // 
             // beefRadioButton
             // 
@@ -253,6 +255,7 @@
             this.beefRadioButton.TabIndex = 2;
             this.beefRadioButton.Text = "Beef";
             this.beefRadioButton.UseVisualStyleBackColor = true;
+            this.beefRadioButton.CheckedChanged += new System.EventHandler(this.beefRadioButton_CheckedChanged);
             // 
             // porkRadioButton
             // 
@@ -263,6 +266,7 @@
             this.porkRadioButton.TabIndex = 1;
             this.porkRadioButton.Text = "Pork";
             this.porkRadioButton.UseVisualStyleBackColor = true;
+            this.porkRadioButton.CheckedChanged += new System.EventHandler(this.porkRadioButton_CheckedChanged);
             // 
             // chickenRadioButton
             // 
@@ -273,6 +277,7 @@
             this.chickenRadioButton.TabIndex = 0;
             this.chickenRadioButton.Text = "Chicken";
             this.chickenRadioButton.UseVisualStyleBackColor = true;
+            this.chickenRadioButton.CheckedChanged += new System.EventHandler(this.chickenRadioButton_CheckedChanged);
             // 
             // addVegetablesGroupBox
             // 
@@ -303,6 +308,7 @@
             this.sproutsCheckBox.TabIndex = 9;
             this.sproutsCheckBox.Text = "Sprouts";
             this.sproutsCheckBox.UseVisualStyleBackColor = true;
+            this.sproutsCheckBox.CheckedChanged += new System.EventHandler(this.sproutsCheckBox_CheckedChanged);
             // 
             // snowPeasCheckBox1
             // 
@@ -313,6 +319,7 @@
             this.snowPeasCheckBox1.TabIndex = 8;
             this.snowPeasCheckBox1.Text = "Snow Peas";
             this.snowPeasCheckBox1.UseVisualStyleBackColor = true;
+            this.snowPeasCheckBox1.CheckedChanged += new System.EventHandler(this.snowPeasCheckBox1_CheckedChanged);
             // 
             // bokChoyheckBox
             // 
@@ -323,6 +330,7 @@
             this.bokChoyheckBox.TabIndex = 7;
             this.bokChoyheckBox.Text = "Bok Choy";
             this.bokChoyheckBox.UseVisualStyleBackColor = true;
+            this.bokChoyheckBox.CheckedChanged += new System.EventHandler(this.bokChoyheckBox_CheckedChanged);
             // 
             // shallotsCheckBox
             // 
@@ -333,6 +341,7 @@
             this.shallotsCheckBox.TabIndex = 6;
             this.shallotsCheckBox.Text = "Shallots";
             this.shallotsCheckBox.UseVisualStyleBackColor = true;
+            this.shallotsCheckBox.CheckedChanged += new System.EventHandler(this.shallotsCheckBox_CheckedChanged);
             // 
             // cabbageCheckBox
             // 
@@ -343,6 +352,7 @@
             this.cabbageCheckBox.TabIndex = 5;
             this.cabbageCheckBox.Text = "Cabbage";
             this.cabbageCheckBox.UseVisualStyleBackColor = true;
+            this.cabbageCheckBox.CheckedChanged += new System.EventHandler(this.cabbageCheckBox_CheckedChanged);
             // 
             // greenBeansCheckBox
             // 
@@ -353,6 +363,7 @@
             this.greenBeansCheckBox.TabIndex = 4;
             this.greenBeansCheckBox.Text = "Green Beans";
             this.greenBeansCheckBox.UseVisualStyleBackColor = true;
+            this.greenBeansCheckBox.CheckedChanged += new System.EventHandler(this.greenBeansCheckBox_CheckedChanged);
             // 
             // onionCheckBox
             // 
@@ -363,6 +374,7 @@
             this.onionCheckBox.TabIndex = 3;
             this.onionCheckBox.Text = "Onion";
             this.onionCheckBox.UseVisualStyleBackColor = true;
+            this.onionCheckBox.CheckedChanged += new System.EventHandler(this.onionCheckBox_CheckedChanged);
             // 
             // carrotCheckBox
             // 
@@ -373,6 +385,7 @@
             this.carrotCheckBox.TabIndex = 2;
             this.carrotCheckBox.Text = "Carrot";
             this.carrotCheckBox.UseVisualStyleBackColor = true;
+            this.carrotCheckBox.CheckedChanged += new System.EventHandler(this.carrotCheckBox_CheckedChanged);
             // 
             // broccoilCheckBox
             // 
@@ -383,6 +396,7 @@
             this.broccoilCheckBox.TabIndex = 1;
             this.broccoilCheckBox.Text = "Broccoil";
             this.broccoilCheckBox.UseVisualStyleBackColor = true;
+            this.broccoilCheckBox.CheckedChanged += new System.EventHandler(this.broccoilCheckBox_CheckedChanged);
             // 
             // capscicumCheckBox
             // 
@@ -393,6 +407,7 @@
             this.capscicumCheckBox.TabIndex = 0;
             this.capscicumCheckBox.Text = "Capscicum";
             this.capscicumCheckBox.UseVisualStyleBackColor = true;
+            this.capscicumCheckBox.CheckedChanged += new System.EventHandler(this.capscicumCheckBox_CheckedChanged);
             // 
             // nameLabel
             // 
@@ -422,6 +437,7 @@
             this.bigSizeCheckBox.TabIndex = 7;
             this.bigSizeCheckBox.Text = "I\'m feeling hungry...\r\nMake a bigger size!";
             this.bigSizeCheckBox.UseVisualStyleBackColor = true;
+            this.bigSizeCheckBox.CheckedChanged += new System.EventHandler(this.bigSizeCheckBox_CheckedChanged);
             // 
             // calculateButton
             // 
@@ -477,6 +493,7 @@
             this.usdRadioButton.TabStop = true;
             this.usdRadioButton.Text = "USD";
             this.usdRadioButton.UseVisualStyleBackColor = true;
+            this.usdRadioButton.CheckedChanged += new System.EventHandler(this.usdRadioButton_CheckedChanged);
             // 
             // audRadioButton
             // 
@@ -489,6 +506,7 @@
             this.audRadioButton.TabStop = true;
             this.audRadioButton.Text = "AUD";
             this.audRadioButton.UseVisualStyleBackColor = true;
+            this.audRadioButton.CheckedChanged += new System.EventHandler(this.audRadioButton_CheckedChanged);
             // 
             // flavourLabel
             // 

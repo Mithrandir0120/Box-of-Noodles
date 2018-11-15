@@ -41,7 +41,6 @@ namespace Box_of_Noodles {
             }
         }
 
-
         public int MeatPrice() {
             string meatName = "";
             int meatPrice;
@@ -77,21 +76,30 @@ namespace Box_of_Noodles {
             return vegetableNum;
         }
 
-        public double CalculateTotalPrice(int meatPrice, int vegetableNum) {
+        public double TotalPrice() {
             double totalPrice = 0.0;
-            if (vegetableNum <= 4) {
+            int meatPrice = 0;
+            int vegetableNumber = 0;
+
+            meatPrice = MeatPrice();
+            vegetableNumber = VegetableNumber();
+
+            if (vegetableNumber <= 4) {
                 totalPrice = meatPrice + 5.5;
             } else {
-                totalPrice = meatPrice + 5.5 + (vegetableNum - 4) * 0.5;
+                totalPrice = meatPrice + 5.5 + (vegetableNumber - 4) * 0.5;
             }
+
+            if (bigSizeCheckBox.Checked) {
+                totalPrice *= 1.5;
+            }
+
             return totalPrice;
         }
 
-        private void calculateButton_Click(object sender, EventArgs e) {            
-            int meatPrice = 0;
-            int vegetableNumber = 0;
-            double totalPrice = 0.0;
+        private void calculateButton_Click(object sender, EventArgs e) {
             bool judge;
+            double totalPrice;
 
             if (judge = Judgement()) {
                 orderPriceLabel.Visible = true;
@@ -99,17 +107,115 @@ namespace Box_of_Noodles {
                 groupBox.Visible = true;
             }
 
-            meatPrice = MeatPrice();
-            vegetableNumber = VegetableNumber();
-            totalPrice = CalculateTotalPrice(meatPrice, vegetableNumber);
+            totalPrice = TotalPrice();
 
-            if (bigSizeCheckBox.Checked) {
-                totalPrice *= 1.5;
-            }
+            priceTextBox.Text = "$" + totalPrice.ToString("0.00");
+        }
 
-            if (usdRadioButton.Checked) {
-                totalPrice *= 0.77;
-            }
+        private void capscicumCheckBox_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void cabbageCheckBox_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void broccoilCheckBox_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void shallotsCheckBox_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void carrotCheckBox_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void bokChoyheckBox_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void onionCheckBox_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void snowPeasCheckBox1_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void greenBeansCheckBox_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void sproutsCheckBox_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void usdRadioButton_CheckedChanged(object sender, EventArgs e) {
+            double totalPrice = TotalPrice();
+            totalPrice *= 0.77;
+            priceTextBox.Text = "$" + totalPrice.ToString("0.00");
+        }
+
+        private void bigSizeCheckBox_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void chickenRadioButton_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void porkRadioButton_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void beefRadioButton_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void seafoodRadioButton_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void noneRadioButton_CheckedChanged(object sender, EventArgs e) {
+            orderPriceLabel.Visible = false;
+            priceTextBox.Visible = false;
+            groupBox.Visible = false;
+        }
+
+        private void audRadioButton_CheckedChanged(object sender, EventArgs e) {
+            double totalPrice = TotalPrice();
             priceTextBox.Text = "$" + totalPrice.ToString("0.00");
         }
     }
